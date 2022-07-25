@@ -1,0 +1,64 @@
+<html>
+    <head>
+       <title>My Collage App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+<script src="style.css"></script>
+
+</head>
+<body style="background-color:black ;">
+    <center>
+        <h1 style="color:cornsilk ;" id="welcome">Welcome!</h1>
+        <br><hr>
+        <h4 style="color:cyan;">As soon as the popup appears, please click Allow. After you've spoken a command.</h4>
+
+        <button onclick="instruction()" id="how" style="background-color:black ;border-color: aquamarine ;border-radius: 50px;color: beige; font-size: 20px;">New to this?<br> No worries, click me!</button>
+        <br><br>
+        <br><br>
+        <button onclick="save()" id="save" style="background-color:cadetblue ; border-radius:30px;height: 30px; width: 350px;color: black;">Start</button>
+
+        <h4 style="color:aliceblue; font-size: 25px;">Say "Take my selfie"</h4>
+
+        <textarea class="form-control" id="textbox" readonly="true"></textarea>
+
+        <label style="color:cornflowerblue ;font-size: 15px;">Your webcam:</label>
+        <br><br>
+
+        <div id="camera" style="width: 500px;
+        height: 400px;
+        border-color: aqua;"></div>
+
+        <label style="font-size:18px ;color:aquamarine;">All your selfies will be displayed here</label>
+        <br>
+        <div id="resultShow">
+            <div class="container" id="result1">
+                <img src="IMG_5469.JPG" style="
+                    width: 30%;
+                    border-radius: 300px;
+                    padding: 20px;
+                    box-shadow: aqua;
+                ">
+            </div>
+
+            <div class="container" id="result2"></div>
+                 <img src="Pharaoh.jpg" style="width:30% ;border-radius: 300px;
+                 padding: 20px;
+                 box-shadow: aqua;">
+
+            <div class="container" id="result3">
+                <img src="Pharaoh sketch.webp" style="width:30% ;border-radius: 300px;
+                padding: 20px;
+                box-shadow: aqua;
+                ">
+            </div>
+        </div>
+    </center>
+
+<div style="color:beige ;">Webpage by Vishwaraj Rupawala</div>
+
+    <script src="page.js"></script>
+</body>

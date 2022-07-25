@@ -1,0 +1,26 @@
+#camera{
+    width: 500px;
+    height: 400px;
+    border-color: aqua;
+}
+
+#result1{
+    width: 500px;
+    border-radius: 300px;
+    padding: 20px;
+    box-shadow: aqua;
+}
+
+#result2{
+    width: 500px;
+    border-radius: 300px;
+    padding: 20px;
+    box-shadow: aqua;
+}
+
+#result3{
+    width: 500px;
+    border-radius: 300px;
+    padding: 20px;
+    box-shadow: aqua;
+}
